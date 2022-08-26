@@ -6,4 +6,4 @@ services:
       - ./.xonotic:/root/.xonotic
       - ./data:/data
     ports:
-      - 26000:26000/UDP
+      - 26000:26000/udp
