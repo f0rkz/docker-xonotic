@@ -1,0 +1,9 @@
+version: '3'
+services:
+  xonotic:
+    image: ghcr.io/f0rkz/docker-xonotic:latest
+    volumes:
+      - ./.xonotic:/root/.xonotic
+      - ./data:/data
+    ports:
+      - 26000:26000/UDP
